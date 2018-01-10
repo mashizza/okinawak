@@ -1,0 +1,1377 @@
+2013/07/04 02:20:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Post))
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/models/Post.php(25): CActiveRecord::model('Post')
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/SiteController.php(35): Post::model()
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php
+---
+2013/07/04 02:23:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Post))
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/models/Post.php(25): CActiveRecord::model('Post')
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/SiteController.php(35): Post::model()
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php
+---
+2013/07/04 02:23:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Post))
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/models/Post.php(25): CActiveRecord::model('Post')
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/SiteController.php(35): Post::model()
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php
+---
+2013/07/04 02:23:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Post))
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/models/Post.php(25): CActiveRecord::model('Post')
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/SiteController.php(35): Post::model()
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php
+---
+2013/07/04 02:23:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Post))
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/models/Post.php(25): CActiveRecord::model('Post')
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/SiteController.php(35): Post::model()
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php
+---
+2013/07/04 02:23:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Post))
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/models/Post.php(25): CActiveRecord::model('Post')
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/SiteController.php(35): Post::model()
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php
+---
+2013/07/04 02:23:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Post))
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/models/Post.php(25): CActiveRecord::model('Post')
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/SiteController.php(35): Post::model()
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php
+---
+2013/07/04 02:29:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/04 02:29:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/04 02:29:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/04 02:29:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/04 02:29:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:29:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:29:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/04 02:29:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/04 02:29:36 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/04 02:29:36 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/04 02:29:36 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/04 02:29:36 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/04 02:29:36 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/04 02:29:36 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/04 02:29:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/04 02:29:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/04 02:29:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/04 02:29:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/04 02:29:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:29:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:29:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/04 02:29:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/04 02:29:37 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(15): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/about
+---
+2013/07/04 02:31:18 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/04 02:31:18 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/04 02:31:18 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/04 02:31:18 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/04 02:31:18 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:31:18 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:31:18 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/04 02:31:18 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/04 02:31:18 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(15): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/about
+---
+2013/07/04 02:31:25 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/04 02:31:25 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/04 02:31:25 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/04 02:31:25 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/04 02:31:25 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:31:25 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:31:25 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/04 02:31:25 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/04 02:31:25 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(VideoController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/video/index.php(15): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/VideoController.php(73): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): VideoController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#19 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('video')
+#20 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/video
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/04 02:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "photoalbum".' in /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('photoalbum')
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/photoalbum
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/04 02:31:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "photoalbum".' in /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('photoalbum')
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/photoalbum
+---
+2013/07/04 02:32:36 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/04 02:32:36 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/04 02:32:36 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/04 02:32:36 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/04 02:32:36 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:32:36 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:32:36 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/04 02:32:36 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/04 02:32:36 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(15): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/04 02:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "photoalbum".' in /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('photoalbum')
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/photoalbum
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/04 02:50:15 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/04 02:50:15 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/04 02:50:15 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/04 02:50:15 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/04 02:50:15 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:50:15 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:50:15 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/04 02:50:15 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/04 02:50:15 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(VideoController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/video/index.php(15): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/VideoController.php(73): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): VideoController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#19 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('video')
+#20 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/video
+HTTP_REFERER=http://okinawa-karate.com.ua/photoalbum
+---
+2013/07/04 02:50:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/04 02:50:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/04 02:50:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/04 02:50:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/04 02:50:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:50:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 02:50:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/04 02:50:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/04 02:50:38 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(15): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/photoalbum
+---
+2013/07/04 16:52:07 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/04 16:52:07 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/04 16:52:07 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/04 16:52:07 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/04 16:52:07 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 16:52:07 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 16:52:07 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/04 16:52:07 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/04 16:52:48 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/04 16:52:48 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/04 16:52:48 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/04 16:52:48 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/04 16:52:48 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/04 16:52:48 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/04 19:57:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/04 19:57:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/04 19:57:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/04 19:57:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/04 19:57:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 19:57:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/04 19:57:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/04 19:57:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/05 20:34:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/05 20:34:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/05 20:34:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/05 20:34:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/05 20:34:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/05 20:34:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/05 20:34:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/05 20:34:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/05 20:35:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/05 20:35:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/05 20:35:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/05 20:35:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/05 20:35:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `t`.`id`=9 LIMIT 1)
+2013/07/05 20:35:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `t`.`id`=9 LIMIT 1)
+2013/07/05 20:35:07 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/05 20:35:07 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/05 20:35:07 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/05 20:35:07 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/05 20:35:07 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `t`.`id`=8 LIMIT 1)
+2013/07/05 20:35:07 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `t`.`id`=8 LIMIT 1)
+2013/07/05 20:35:14 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/05 20:35:14 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/05 20:35:14 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/05 20:35:14 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/05 20:35:14 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/05 20:35:14 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/05 20:35:17 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/05 20:35:17 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/05 20:35:17 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/05 20:35:17 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/05 20:35:17 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/05 20:35:17 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/05 20:35:17 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/05 20:35:17 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/05 20:35:17 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(15): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/about
+---
+2013/07/05 20:35:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/05 20:35:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/05 20:35:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/05 20:35:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/05 20:35:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'links' LIMIT 1)
+2013/07/05 20:35:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'links' LIMIT 1)
+2013/07/05 20:35:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/05 20:35:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/05 20:35:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/05 20:35:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/05 20:35:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/05 20:35:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/05 20:51:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/05 20:51:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/05 20:51:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/05 20:51:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/05 20:51:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/05 20:51:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/05 20:51:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/05 20:51:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/06 14:29:01 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/06 14:29:01 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `post`)
+2013/07/06 14:29:01 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/06 14:29:01 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `post`)
+2013/07/06 14:29:01 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 14:29:01 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `post` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 14:29:01 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/06 14:29:01 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `post` `t` WHERE `visible` = :visible ORDER BY created DESC LIMIT 9. Bound with :visible=1)
+2013/07/06 14:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "photoalbum".' in /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('photoalbum')
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/photoalbum
+HTTP_REFERER=http://okinawa-karate.com.ua/index.php
+---
+2013/07/06 14:38:06 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/06 14:38:06 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/06 14:38:06 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/06 14:38:06 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/06 14:38:06 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 14:38:06 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 14:38:06 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/06 14:38:06 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/06 14:38:06 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(VideoController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/video/index.php(16): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/VideoController.php(73): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): VideoController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#19 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('video')
+#20 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/video
+HTTP_REFERER=http://okinawa-karate.com.ua/photoalbum
+---
+2013/07/06 14:38:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "photoalbum".' in /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('photoalbum')
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/photoalbum
+HTTP_REFERER=http://okinawa-karate.com.ua/index.php
+---
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 14:38:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 14:38:11 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(AlbumController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/album/index.php(35): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/AlbumController.php(78): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): AlbumController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('album')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/album
+HTTP_REFERER=http://okinawa-karate.com.ua/photoalbum
+---
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 14:40:03 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(AlbumController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/album/index.php(35): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/AlbumController.php(78): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): AlbumController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('album')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/album
+HTTP_REFERER=http://okinawa-karate.com.ua/photoalbum
+---
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 14:40:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 14:40:03 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(AlbumController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/album/index.php(35): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/AlbumController.php(78): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): AlbumController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('album')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/album
+HTTP_REFERER=http://okinawa-karate.com.ua/photoalbum
+---
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 14:40:04 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(AlbumController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/album/index.php(35): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/AlbumController.php(78): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): AlbumController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('album')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/album
+HTTP_REFERER=http://okinawa-karate.com.ua/photoalbum
+---
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 14:40:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 14:40:04 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(AlbumController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/album/index.php(35): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/AlbumController.php(78): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/actions/CInlineAction.php(50): AlbumController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/framework/web/CWebApplication.php(142): CWebApplication->runController('album')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/album
+HTTP_REFERER=http://okinawa-karate.com.ua/photoalbum
+---
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:10:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:10:38 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(AlbumController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/album/index.php(35): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/AlbumController.php(78): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): AlbumController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('album')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/album
+HTTP_REFERER=http://okinawa-karate.com.ua/photoalbum
+---
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:10:45 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:10:45 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(AlbumController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/album/index.php(35): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/AlbumController.php(78): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): AlbumController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('album')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/album
+HTTP_REFERER=http://okinawa-karate.com.ua/photoalbum
+---
+2013/07/06 15:10:49 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:10:49 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:10:49 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:10:49 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:10:49 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:10:49 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:10:49 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:10:49 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:10:49 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(13): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/06 15:10:54 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:10:54 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:10:55 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:10:55 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:10:55 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:10:55 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:10:55 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:10:55 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:10:55 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(13): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/06 15:12:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:12:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:12:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:12:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:12:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:12:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:12:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:12:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:12:21 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(13): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/06 15:12:22 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:12:22 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:12:22 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:12:22 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:12:22 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:12:22 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:12:22 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:12:22 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:12:22 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(13): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/06 15:15:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:15:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:15:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:15:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:15:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:15:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:15:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:15:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:15:20 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(13): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/06 15:15:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:15:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:15:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:15:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:15:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:15:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:15:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:15:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:15:21 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(13): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/06 15:18:44 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:18:44 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:18:44 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:18:44 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:18:44 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:18:44 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:18:44 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:18:44 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:18:44 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(13): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/06 15:18:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:18:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:18:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:18:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:18:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:18:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:18:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:18:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:18:58 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.PrettyPhoto.PrettyPhoto" is invalid. Make sure it points to an existing PHP file and the file is readable. Path /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/extensions/PrettyPhoto/PrettyPhoto.php' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/YiiBase.php:318
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(InstructorController), 'application.ext...', Array)
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(13): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/06 15:20:14 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:20:14 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:20:14 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:20:14 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:20:14 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:20:14 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:20:14 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:20:14 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:20:14 [error] [exception.CException] exception 'CException' with message 'The asset "/home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/extensions/PrettyPhoto/prettyPhoto" to be published does not exist.' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CAssetManager.php:255
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/extensions/PrettyPhoto/PrettyPhoto.php(84): CAssetManager->publish('/home/okinawak/...')
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(148): PrettyPhoto->init()
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(13): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/06 15:20:16 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:20:16 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:20:16 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:20:16 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:20:16 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:20:16 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:20:16 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:20:16 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:20:16 [error] [exception.CException] exception 'CException' with message 'The asset "/home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/extensions/PrettyPhoto/prettyPhoto" to be published does not exist.' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CAssetManager.php:255
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/extensions/PrettyPhoto/PrettyPhoto.php(84): CAssetManager->publish('/home/okinawak/...')
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(148): PrettyPhoto->init()
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(190): CBaseController->createWidget('application.ext...', Array)
+#3 /home/okinawak/domains/okinawa-karate.com.ua/public_html/themes/tw/views/instructor/index.php(13): CBaseController->beginWidget('application.ext...', Array)
+#4 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(127): require('/home/okinawak/...')
+#5 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/okinawak/...', Array, true)
+#6 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(870): CBaseController->renderFile('/home/okinawak/...', Array, true)
+#7 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /home/okinawak/domains/okinawa-karate.com.ua/public_html/protected/controllers/InstructorController.php(64): CController->render('index', Array)
+#9 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/actions/CInlineAction.php(50): InstructorController->actionIndex()
+#10 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(283): CController->run('')
+#14 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('instructor')
+#15 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/instructor
+HTTP_REFERER=http://okinawa-karate.com.ua/contact
+---
+2013/07/06 15:20:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:20:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:20:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:20:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:20:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:20:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:20:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:20:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/tw/img/icon_email_envelope.png".' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/tw/img/i...')
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/tw/img/icon_email_envelope.png
+HTTP_REFERER=http://okinawa-karate.com.ua/instructor
+---
+2013/07/06 15:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/tw/img/icon_phone.png".' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/tw/img/i...')
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/tw/img/icon_phone.png
+HTTP_REFERER=http://okinawa-karate.com.ua/instructor
+---
+2013/07/06 15:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/tw/img/icon_home_house.png".' in /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/web/CWebApplication.php(142): CWebApplication->runController('themes/tw/img/i...')
+#1 /home/okinawak/domains/okinawa-karate.com.ua/public_html/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/okinawak/domains/okinawa-karate.com.ua/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/tw/img/icon_home_house.png
+HTTP_REFERER=http://okinawa-karate.com.ua/instructor
+---
+2013/07/06 15:23:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/06 15:23:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/06 15:23:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/06 15:23:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/06 15:23:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/06 15:23:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/06 15:23:54 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:23:54 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:23:54 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:23:54 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:23:54 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:23:54 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:23:54 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:23:54 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:24:39 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:24:39 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:24:39 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:24:39 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:24:39 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:24:39 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:24:39 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:24:39 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:24:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/06 15:24:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/06 15:24:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/06 15:24:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/06 15:24:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:24:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:24:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/06 15:24:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/06 15:24:48 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/06 15:24:48 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/06 15:24:48 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/06 15:24:48 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/06 15:24:48 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:24:48 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:24:48 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/06 15:24:48 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/06 15:24:51 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:24:51 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `instructor`)
+2013/07/06 15:24:51 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:24:51 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `instructor`)
+2013/07/06 15:24:51 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:24:51 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `instructor` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:24:51 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:24:51 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `instructor` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 6. Bound with :visible=1)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:24:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:24:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:25:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo`)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo`)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL. Bound with :visible=1)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `photo_album`)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `photo_album`)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `photo_album`.*, `photo`.`title` AS `photo_title`, `photo`.`src`
+FROM `photo_album`
+LEFT JOIN `photo` ON photo.id=photo_album.preview_photo_id
+WHERE photo_album.visible=:vs AND photo.visible=:vsp AND photo_album.parent_photo_album_id IS NULL
+ORDER BY `photo_album`.`sort_order` ASC. Bound with :vs=1, :vsp=1)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:25:05 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `photo` `t` WHERE `visible` = :visible AND photo_album_id IS NULL ORDER BY sort_order asc LIMIT 24. Bound with :visible=1)
+2013/07/06 15:25:06 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/06 15:25:06 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `video`)
+2013/07/06 15:25:06 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/06 15:25:06 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `video`)
+2013/07/06 15:25:06 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:25:06 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `video` `t` WHERE `visible` = :visible. Bound with :visible=1)
+2013/07/06 15:25:06 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/06 15:25:06 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `video` `t` WHERE `visible` = :visible ORDER BY sort_order asc LIMIT 12. Bound with :visible=1)
+2013/07/06 15:25:07 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/06 15:25:07 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/06 15:25:07 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/06 15:25:07 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/06 15:25:07 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'links' LIMIT 1)
+2013/07/06 15:25:07 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'links' LIMIT 1)
+2013/07/06 15:25:08 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/06 15:25:08 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/06 15:25:08 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/06 15:25:08 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/06 15:25:08 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/06 15:25:08 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/06 15:26:41 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/06 15:26:41 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/06 15:26:41 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/06 15:26:41 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/06 15:26:41 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/06 15:26:41 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/06 15:26:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/06 15:26:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `page`)
+2013/07/06 15:26:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/06 15:26:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `page`)
+2013/07/06 15:26:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
+2013/07/06 15:26:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `page` `t` WHERE alias = 'about' LIMIT 1)
